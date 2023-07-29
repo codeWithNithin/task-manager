@@ -1,3 +1,38 @@
-{
-  "tasks": []
-}
+[
+  {
+    "id": 1,
+    "title": "task 1",
+    "description": "desc of task 1",
+    "completionStatus": true
+  },
+  {
+    "id": 2,
+    "title": "task 3",
+    "description": "desc of task 3",
+    "completionStatus": true
+  },
+  {
+    "id": 4,
+    "title": "task 3",
+    "description": "desc of task 3",
+    "completionStatus": true
+  },
+  {
+    "id": 5,
+    "title": "task 5 changed",
+    "description": "desc of task 5 changed",
+    "completionStatus": false
+  },
+  {
+    "id": 6,
+    "title": "task 3",
+    "description": "desc of task 3",
+    "completionStatus": true
+  },
+  {
+    "id": 7,
+    "title": "task 3",
+    "description": "desc of task 3",
+    "completionStatus": true
+  }
+]

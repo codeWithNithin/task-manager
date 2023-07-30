@@ -42,7 +42,7 @@ router.post('/', (req, res) => {
     flag: 'w',
   });
 
-  res.status(201).json({ message: 'Course has been completed successfully' });
+  res.status(201).json({ message: 'Task has been added  successfully' });
 });
 
 router.put('/:id', (req, res) => {

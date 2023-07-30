@@ -1,6 +1,6 @@
 # simple task manager application.
 
-# functionalities supported
+## functionalities supported
 
 GET /tasks: Retrieve all tasks.
 

@@ -100,7 +100,3 @@ tap.test("DELETE /tasks/:id with invalid id", async (t) => {
   t.equal(response.status, 404);
   t.end();
 });
-
-tap.teardown(() => {
-  process.exit(0);
-});

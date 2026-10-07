@@ -6,8 +6,10 @@ const data = getTasks();
 
 const {title, description, completed} = req.body
 
+const nextId = data.reduce((max, task) => Math.max(max, task.id), 0) + 1;
+
 const newPost = {
-    id: data.length + 1,
+    id: nextId,
     title,
     description,
     completed

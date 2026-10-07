@@ -24,7 +24,14 @@ res.status(201).json(newPost)
 
 
 const getAllTasks =  (req, res) => {
-    const data = getTasks()
+    const {completed} = req.query;
+    let data = getTasks()
+
+    if (completed !== undefined) {
+        const completedValue = completed === "true";
+
+        data = data.filter((task) => task.completed === completedValue);
+    }
 
     res.status(200).json(data)
 }
